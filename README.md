@@ -11,8 +11,10 @@ _This page mimics the old game Simon where the user must repeat back a growing s
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program will ** | User input: "" | Output: "" |
-
+| **Program will display a color** | User input: "Ready" | Output: "Blue" |
+| **Program will display first color and a second color in succession** | User input: "Ready" | Output: "Blue" then "Red" |
+| **Program will display 'n' colors in succession** | User input: "Ready" | Output: "Blue" then "Red" then "Green" etc |
+| **Program will determine losing condition** | User input: "wrong color in sequence" | Output: "Wrong color! You Lose"|
 
 
 ## Setup/Installation Requirements

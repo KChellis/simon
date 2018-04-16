@@ -5,9 +5,11 @@
     },
     "extends": "eslint:recommended",
     "env": {
-      "browser": true,
-      "jquery": true
-    },
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "jasmine": true,
+  },
     "rules": {
       "semi": 1,
       "indent": ["warn", 2],
